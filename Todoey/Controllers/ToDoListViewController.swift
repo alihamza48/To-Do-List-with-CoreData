@@ -129,6 +129,7 @@ class ToDoListViewController: UITableViewController {
         }catch{
             print("Error Fetching Data \(error)")
         }
+        tableView.relaodData()
     }
 }
 
